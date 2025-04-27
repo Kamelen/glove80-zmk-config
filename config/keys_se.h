@@ -5,57 +5,54 @@
 #include <dt-bindings/zmk/keys.h>
 
 // Aliases
-#define SE_SECT GRAVE     // §
-#define SE_1    N1        // 1
-#define SE_2    N2        // 2
-#define SE_3    N3    // 3
-#define SE_4    N4    // 4
-#define SE_5    N5    // 5
-#define SE_6    N6    // 6
-#define SE_7    N7    // 7
-#define SE_8    N8    // 8
-#define SE_9    N9    // 9
-#define SE_0    N0    // 0
-#define SE_PLUS MINUS // +
-#define SE_ACUT EQUAL  // ´ (dead)
-
-
-#define SE_Q    Q    // Q
-#define SE_W    W    // W
-#define SE_E    E    // E
-#define SE_R    R    // R
-#define SE_T    T    // T
-#define SE_Y    Y    // Y
-#define SE_U    U    // U
-#define SE_I    I    // I
-#define SE_O    O    // O
-#define SE_P    P    // P
-#define SE_ARNG LBKT // Å
-#define SE_DIAE RBKT // ¨
-#define SE_A    A    // A
-#define SE_S    S    // S
-#define SE_D    D    // D
-#define SE_F    F    // F
-#define SE_G    G    // G
-#define SE_H    H    // H
-#define SE_J    J    // J
-#define SE_K    K    // K
-#define SE_L    L    // L
-#define SE_ODIA SEMI // Ö
-#define SE_ADIA APOS // Ä
-#define SE_QUOT NUHS // '
-#define SE_LABK NUBS // <
-#define SE_Z    Z    // Z
-#define SE_X    X    // X
-#define SE_C    C    // C
-#define SE_V    V    // V
-#define SE_B    B    // B
-#define SE_N    N    // N
-#define SE_M    M    // M
-#define SE_COMM COMMA // ,
-#define SE_DOT  DOT   // .
-#define SE_MINS FSLH  // -
-
+#define SE_SECT (KC_GRV)  // §
+#define SE_1    (KC_1)    // 1
+#define SE_2    (KC_2)    // 2
+#define SE_3    (KC_3)    // 3
+#define SE_4    (KC_4)    // 4
+#define SE_5    (KC_5)    // 5
+#define SE_6    (KC_6)    // 6
+#define SE_7    (KC_7)    // 7
+#define SE_8    (KC_8)    // 8
+#define SE_9    (KC_9)    // 9
+#define SE_0    (KC_0)    // 0
+#define SE_PLUS (KC_MINS) // +
+#define SE_ACUT (KC_EQL)  // ´ (dead)
+#define SE_Q    (KC_Q)    // Q
+#define SE_W    (KC_W)    // W
+#define SE_E    (KC_E)    // E
+#define SE_R    (KC_R)    // R
+#define SE_T    (KC_T)    // T
+#define SE_Y    (KC_Y)    // Y
+#define SE_U    (KC_U)    // U
+#define SE_I    (KC_I)    // I
+#define SE_O    (KC_O)    // O
+#define SE_P    (KC_P)    // P
+#define SE_ARNG (KC_LBRC) // Å
+#define SE_DIAE (KC_RBRC) // ¨ (dead)
+#define SE_A    (KC_A)    // A
+#define SE_S    (KC_S)    // S
+#define SE_D    (KC_D)    // D
+#define SE_F    (KC_F)    // F
+#define SE_G    (KC_G)    // G
+#define SE_H    (KC_H)    // H
+#define SE_J    (KC_J)    // J
+#define SE_K    (KC_K)    // K
+#define SE_L    (KC_L)    // L
+#define SE_ODIA (KC_SCLN) // Ö
+#define SE_ADIA (KC_QUOT) // Ä
+#define SE_QUOT (KC_NUHS) // '
+#define SE_LABK (KC_NUBS) // <
+#define SE_Z    (KC_Z)    // Z
+#define SE_X    (KC_X)    // X
+#define SE_C    (KC_C)    // C
+#define SE_V    (KC_V)    // V
+#define SE_B    (KC_B)    // B
+#define SE_N    (KC_N)    // N
+#define SE_M    (KC_M)    // M
+#define SE_COMM (KC_COMM) // ,
+#define SE_DOT  (KC_DOT)  // .
+#define SE_MINS (KC_SLSH) // -
 #define SE_HALF (S(SE_SECT)) // ½
 #define SE_EXLM (S(SE_1))    // !
 #define SE_DQUO (S(SE_2))    // "
