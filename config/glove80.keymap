@@ -137,12 +137,12 @@
 
         SYMBOL_LAYER {
             bindings = <
-&trans         &trans               &trans         &trans         &trans                                                                                                        &trans    &trans       &trans     &trans     &trans
-&kp GRAVE      &kp SE_LEFT_BRACKET  &kp LS(LPAR)   &kp LS(RPAR)   &kp RBKT      &kp DOT                                                                            &none        &none     &none        &none      &none      &trans
-&kp LS(EXCL)   &kp COMMA            &kp LBRC       &kp RBRC       &kp LS(SEMI)  &kp LS(QMARK)                                                                      &kp GRAVE    &kp LEFT  &kp UP       &kp DOWN   &kp RIGHT  &trans
-&kp LS(POUND)  &kp RCTRL            &kp LS(EQUAL)  &kp LS(UNDER)  &kp DLLR      &kp LS(STAR)                                                                       &kp LS(DQT)  &kp BSPC  &kp TAB      &kp SPACE  &kp RET    &trans
-&kp LALT       &kp LT               &kp PIPE       &kp MINUS      &kp LS(GT)    &kp LS(FSLH)   &kp BSLH       &kp DOT        &kp LS(STAR)  &trans  &trans  &trans  &kp SQT      &kp DEL   &kp LS(TAB)  &trans     &trans     &trans
-&trans         &kp LS(AMPS)         &kp SQT        &kp LS(DQT)    &kp PLUS                     &kp LS(PRCNT)  &kp LS(COLON)  &kp AT        &trans  &trans  &trans               &trans    &trans       &trans     &trans     &trans
+&trans         &trans        &trans         &trans         &trans                                                                                                        &trans    &trans       &trans     &trans     &trans
+&kp GRAVE      &kp SE_LBKT   &kp LS(LPAR)   &kp LS(RPAR)   &kp RBKT      &kp DOT                                                                            &none        &none     &none        &none      &none      &trans
+&kp LS(EXCL)   &kp COMMA     &kp LBRC       &kp RBRC       &kp LS(SEMI)  &kp LS(QMARK)                                                                      &kp GRAVE    &kp LEFT  &kp UP       &kp DOWN   &kp RIGHT  &trans
+&kp LS(POUND)  &kp RCTRL     &kp LS(EQUAL)  &kp LS(UNDER)  &kp DLLR      &kp LS(STAR)                                                                       &kp LS(DQT)  &kp BSPC  &kp TAB      &kp SPACE  &kp RET    &trans
+&kp LALT       &kp LT        &kp PIPE       &kp MINUS      &kp LS(GT)    &kp LS(FSLH)   &kp BSLH       &kp DOT        &kp LS(STAR)  &trans  &trans  &trans  &kp SQT      &kp DEL   &kp LS(TAB)  &trans     &trans     &trans
+&trans         &kp LS(AMPS)  &kp SQT        &kp LS(DQT)    &kp PLUS                     &kp LS(PRCNT)  &kp LS(COLON)  &kp AT        &trans  &trans  &trans               &trans    &trans       &trans     &trans     &trans
             >;
         };
     };
