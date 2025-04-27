@@ -56,25 +56,25 @@
 #define SE_DOT  DOT   // .
 #define SE_MINS FSLH  // -
 
-#define SE_HALF LS(SE_SECT) // ½
-#define SE_EXLM LS(SE_1)    // !
-#define SE_DQUO LS(SE_2)    // "
-#define SE_HASH LS(SE_3)    // #
-#define SE_CURR LS(SE_4)    // ¤
-#define SE_PERC LS(SE_5)    // %
-#define SE_AMPR LS(SE_6)    // &
-#define SE_SLSH LS(SE_7)    // /
-#define SE_LPRN LS(SE_8)    // (
-#define SE_RPRN LS(SE_9)    // )
-#define SE_EQL  LS(SE_0)    // =
-#define SE_QUES LS(SE_PLUS) // ?
-#define SE_GRV  LS(SE_ACUT) // ` (dead)
-#define SE_CIRC LS(SE_DIAE) // ^ (dead)
-#define SE_ASTR LS(SE_QUOT) // *
-#define SE_RABK LS(SE_LABK) // >
-#define SE_SCLN LS(SE_COMM) // ;
-#define SE_COLN LS(SE_DOT)  // :
-#define SE_UNDS LS(SE_MINS) // _
+#define SE_HALF (LS(SE_SECT)) // ½
+#define SE_EXLM (LS(SE_1))    // !
+#define SE_DQUO (LS(SE_2))    // "
+#define SE_HASH (LS(SE_3))    // #
+#define SE_CURR (LS(SE_4))    // ¤
+#define SE_PERC (LS(SE_5))    // %
+#define SE_AMPR (LS(SE_6))    // &
+#define SE_SLSH (LS(SE_7))    // /
+#define SE_LPRN (LS(SE_8))    // (
+#define SE_RPRN (LS(SE_9))    // )
+#define SE_EQL  (LS(SE_0))    // =
+#define SE_QUES (LS(SE_PLUS)) // ?
+#define SE_GRV  (LS(SE_ACUT)) // ` (dead)
+#define SE_CIRC (LS(SE_DIAE)) // ^ (dead)
+#define SE_ASTR (LS(SE_QUOT)) // *
+#define SE_RABK (LS(SE_LABK)) // >
+#define SE_SCLN (LS(SE_COMM)) // ;
+#define SE_COLN (LS(SE_DOT))  // :
+#define SE_UNDS (LS(SE_MINS)) // _
 #define SE_AT   (RA(SE_2))    // @
 #define SE_PND  (RA(SE_3))    // £
 #define SE_DLR  (RA(SE_4))    // $
