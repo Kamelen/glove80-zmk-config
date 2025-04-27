@@ -75,16 +75,16 @@
 #define SE_SCLN LS(SE_COMM) // ;
 #define SE_COLN LS(SE_DOT)  // :
 #define SE_UNDS LS(SE_MINS) // _
-#define SE_AT   RA(SE_2)    // @
-#define SE_PND  RA(SE_3)    // £
-#define SE_DLR  RA(SE_4)    // $
-#define SE_EURO RA(SE_5)    // €
-#define SE_LCBR RA(SE_7)    // {
-#define SE_LBRC RA(SE_8)    // [
-#define SE_RBRC RA(SE_9)    // ]
-#define SE_RCBR RA(SE_0)    // }
-#define SE_BSLS RA(SE_PLUS) // (backslash)
-#define SE_TILD RA(SE_DIAE) // ~ (dead)
-#define SE_PIPE RA(SE_LABK) // |
-#define SE_MICR RA(SE_M)    // µ
+#define SE_AT   (RA(SE_2))    // @
+#define SE_PND  (RA(SE_3))    // £
+#define SE_DLR  (RA(SE_4))    // $
+#define SE_EURO (RA(SE_5))    // €
+#define SE_LCBR (RA(SE_7))    // {
+#define SE_LBRC (RA(SE_8))    // [
+#define SE_RBRC (RA(SE_9))    // ]
+#define SE_RCBR (RA(SE_0))    // }
+#define SE_BSLS (RA(SE_PLUS)) // (backslash)
+#define SE_TILD (RA(SE_DIAE)) // ~ (dead)
+#define SE_PIPE (RA(SE_LABK)) // |
+#define SE_MICR (RA(SE_M))    // µ
 
