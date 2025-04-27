@@ -18,8 +18,6 @@
 #define SE_0    N0    // 0
 #define SE_PLUS MINUS // +
 #define SE_ACUT EQUAL  // ´ (dead)
-
-
 #define SE_Q    Q    // Q
 #define SE_W    W    // W
 #define SE_E    E    // E
@@ -55,7 +53,6 @@
 #define SE_COMM COMMA // ,
 #define SE_DOT  DOT   // .
 #define SE_MINS FSLH  // -
-
 #define SE_HALF (LS(SE_SECT)) // ½
 #define SE_EXLM (LS(SE_1))    // !
 #define SE_DQUO (LS(SE_2))    // "
@@ -87,4 +84,3 @@
 #define SE_TILD (RA(SE_DIAE)) // ~ (dead)
 #define SE_PIPE (RA(SE_LABK)) // |
 #define SE_MICR (RA(SE_M))    // µ
-
