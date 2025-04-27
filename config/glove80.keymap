@@ -137,12 +137,12 @@
 
         SYMBOL_LAYER {
             bindings = <
-&trans              &trans            &trans               &trans                &trans                                                                                                                                    &trans    &trans       &trans     &trans     &trans
-&kp SE_GRAVE        &kp SE_LBRC       &kp SE_LPAR          &kp SE_RPAR           &kp SE_RBKT              &kp SE_PERIOD                                                                              &none                 &none     &none        &none      &none      &trans
-&kp SE_EXCLAMATION  &kp SE_COMMA      &kp SE_LBRC          &kp SE_RBRC           &kp SE_SEMICOLON         &kp SE_QUESTION                                                                            &kp SE_GRAVE          &kp LEFT  &kp UP       &kp DOWN   &kp RIGHT  &trans
-&kp SE_HASH         &kp SE_CARET      &kp SE_EQUAL         &kp SE_UNDERSCORE     &kp SE_DOLLAR            &kp SE_ASTERISK                                                                            &kp SE_DOUBLE_QUOTES  &kp BSPC  &kp TAB      &kp SPACE  &kp RET    &trans
-&kp SE_TILDE        &kp SE_LESS_THAN  &kp SE_PIPE          &kp SE_MINUS          &kp LS(SE_GREATER_THAN)  &kp SE_FSLH      &kp SE_BACKSLASH  &kp SE_PERIOD  &kp SE_ASTERISK  &trans  &trans  &trans  &kp SE_SQT            &kp DEL   &kp LS(TAB)  &trans     &trans     &trans
-&trans              &kp SE_AMPERSAND  &kp SE_SINGLE_QUOTE  &kp SE_DOUBLE_QUOTES  &kp SE_PLUS                               &kp SE_PERCENT    &kp SE_COLON   &kp SE_AT_SIGN   &trans  &trans  &trans                        &trans    &trans       &trans     &trans     &trans
+&trans        &trans             &trans                   &trans                    &trans                                                                                                                                    &trans    &trans       &trans     &trans     &trans
+&kp GRAVE     &kp SE_LEFT_BRACE  &kp SE_LEFT_PARENTHESIS  &kp SE_RIGHT_PARENTHESIS  &kp SE_RIGHT_BRACKET     &kp SE_PERIOD                                                                              &none                 &none     &none        &none      &none      &trans
+&kp LS(EXCL)  &kp SE_COMMA       &kp SE_LEFT_BRACE        &kp SE_RIGHT_BRACE        &kp SE_SEMICOLON         &kp SE_QUESTION                                                                            &kp SE_GRAVE          &kp LEFT  &kp UP       &kp DOWN   &kp RIGHT  &trans
+&kp SE_HASH   &kp SE_CARET       &kp SE_EQUAL             &kp SE_UNDER              &kp SE_DOLLAR            &kp SE_ASTERISK                                                                            &kp SE_DOUBLE_QUOTES  &kp BSPC  &kp TAB      &kp SPACE  &kp RET    &trans
+&kp SE_TILDE  &kp SE_LESS_THAN   &kp SE_PIPE              &kp SE_MINUS              &kp LS(SE_GREATER_THAN)  &kp SE_SLASH     &kp SE_BACKSLASH  &kp SE_PERIOD  &kp SE_ASTERISK  &trans  &trans  &trans  &kp SE_SQT            &kp DEL   &kp LS(TAB)  &trans     &trans     &trans
+&trans        &kp SE_AMPERSAND   &kp SE_SINGLE_QUOTE      &kp SE_DOUBLE_QUOTES      &kp SE_PLUS                               &kp SE_PERCENT    &kp SE_COLON   &kp SE_AT_SIGN   &trans  &trans  &trans                        &trans    &trans       &trans     &trans     &trans
             >;
         };
     };
