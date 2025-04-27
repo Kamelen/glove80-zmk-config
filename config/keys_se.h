@@ -56,35 +56,35 @@
 #define SE_DOT  DOT   // .
 #define SE_MINS FSLH  // -
 
-#define SE_HALF (S(SE_SECT)) // ½
-#define SE_EXLM (S(SE_1))    // !
-#define SE_DQUO (S(SE_2))    // "
-#define SE_HASH (S(SE_3))    // #
-#define SE_CURR (S(SE_4))    // ¤
-#define SE_PERC (S(SE_5))    // %
-#define SE_AMPR (S(SE_6))    // &
-#define SE_SLSH (S(SE_7))    // /
-#define SE_LPRN (S(SE_8))    // (
-#define SE_RPRN (S(SE_9))    // )
-#define SE_EQL  (S(SE_0))    // =
-#define SE_QUES (S(SE_PLUS)) // ?
-#define SE_GRV  (S(SE_ACUT)) // ` (dead)
-#define SE_CIRC (S(SE_DIAE)) // ^ (dead)
-#define SE_ASTR (S(SE_QUOT)) // *
-#define SE_RABK (S(SE_LABK)) // >
-#define SE_SCLN (S(SE_COMM)) // ;
-#define SE_COLN (S(SE_DOT))  // :
-#define SE_UNDS (S(SE_MINS)) // _
-#define SE_AT   (ALGR(SE_2))    // @
-#define SE_PND  (ALGR(SE_3))    // £
-#define SE_DLR  (ALGR(SE_4))    // $
-#define SE_EURO (ALGR(SE_5))    // €
-#define SE_LCBR (ALGR(SE_7))    // {
-#define SE_LBRC (ALGR(SE_8))    // [
-#define SE_RBRC (ALGR(SE_9))    // ]
-#define SE_RCBR (ALGR(SE_0))    // }
-#define SE_BSLS (ALGR(SE_PLUS)) // (backslash)
-#define SE_TILD (ALGR(SE_DIAE)) // ~ (dead)
-#define SE_PIPE (ALGR(SE_LABK)) // |
-#define SE_MICR (ALGR(SE_M))    // µ
+#define SE_HALF LS(SE_SECT) // ½
+#define SE_EXLM LS(SE_1)    // !
+#define SE_DQUO LS(SE_2)    // "
+#define SE_HASH LS(SE_3)    // #
+#define SE_CURR LS(SE_4)    // ¤
+#define SE_PERC LS(SE_5)    // %
+#define SE_AMPR LS(SE_6)    // &
+#define SE_SLSH LS(SE_7)    // /
+#define SE_LPRN LS(SE_8)    // (
+#define SE_RPRN LS(SE_9)    // )
+#define SE_EQL  LS(SE_0)    // =
+#define SE_QUES LS(SE_PLUS) // ?
+#define SE_GRV  LS(SE_ACUT) // ` (dead)
+#define SE_CIRC LS(SE_DIAE) // ^ (dead)
+#define SE_ASTR LS(SE_QUOT) // *
+#define SE_RABK LS(SE_LABK) // >
+#define SE_SCLN LS(SE_COMM) // ;
+#define SE_COLN LS(SE_DOT)  // :
+#define SE_UNDS LS(SE_MINS) // _
+#define SE_AT   RA(SE_2)    // @
+#define SE_PND  RA(SE_3)    // £
+#define SE_DLR  RA(SE_4)    // $
+#define SE_EURO RA(SE_5)    // €
+#define SE_LCBR RA(SE_7)    // {
+#define SE_LBRC RA(SE_8)    // [
+#define SE_RBRC RA(SE_9)    // ]
+#define SE_RCBR RA(SE_0)    // }
+#define SE_BSLS RA(SE_PLUS) // (backslash)
+#define SE_TILD RA(SE_DIAE) // ~ (dead)
+#define SE_PIPE RA(SE_LABK) // |
+#define SE_MICR RA(SE_M)    // µ
 
